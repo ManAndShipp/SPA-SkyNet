@@ -1,0 +1,203 @@
+/* line 1, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+/* line 7, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+body {
+  background-color: #e6e6e6;
+}
+
+/* line 10, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  border-bottom: 2px solid #d9d9d9;
+  padding: 20px;
+}
+
+/* line 20, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff {
+  background: white;
+  border-radius: 2px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 20, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+  .tariff {
+    margin-right: 0;
+  }
+}
+
+/* line 29, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff--colors-brown {
+  background-color: #70603e;
+}
+
+/* line 31, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff--colors-blue {
+  background-color: #0075d9;
+}
+
+/* line 33, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff--colors-orange {
+  background-color: #e74807;
+}
+
+/* line 35, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff-break {
+  margin-left: 30px;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+/* line 39, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_header {
+  font-weight: 400;
+  color: #82c12b;
+  font-size: 26px;
+  padding: 10px 20px;
+}
+
+/* line 44, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content {
+  padding: 10px 0;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 50, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content:hover {
+  cursor: pointer;
+  background-color: #cdcdcd;
+  color: #0e81ff;
+}
+
+/* line 55, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content--nohever:hover {
+  background-color: white;
+  cursor: auto;
+}
+
+/* line 59, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content--data_mbits {
+  display: inline-block;
+}
+
+/* line 61, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content--data_mbits > div {
+  padding: 10px 10px 10px 30px;
+  font-size: 24px;
+  font-weight: 500px;
+  display: inline-block;
+  color: white;
+}
+
+/* line 67, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content--data_price {
+  font-size: 22px;
+  font-weight: 500px;
+  padding: 10px 0 0 30px;
+  color: #4d575d;
+}
+
+/* line 72, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content--data_descriptions {
+  margin-top: 10px;
+  padding-left: 30px;
+  list-style-type: none;
+  font-size: 18px;
+  color: #4d575d;
+}
+
+/* line 78, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_content--data_meta {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 30px;
+  font-size: 17px;
+  color: #9a9a9a;
+}
+
+/* line 84, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff_link {
+  display: inline-block;
+  padding: 15px 0 15px 30px;
+  text-decoration: none;
+  color: #0e81ff;
+  font-size: 20px;
+}
+
+/* line 90, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff-button {
+  background-color: #82c12b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding: 10px 90px;
+  transition: all 0.5s;
+}
+
+/* line 99, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff-button:hover {
+  cursor: pointer;
+  background-color: #669722;
+}
+
+/* line 103, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff:last-child {
+  margin-right: 0;
+}
+
+/* line 105, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.tariff--section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+/* line 111, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.arrow {
+  margin-right: 20px;
+}
+
+/* line 113, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.arrow > div {
+  height: 2px;
+}
+
+/* line 115, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.arrow-reverse {
+  transform: rotate(180deg);
+}
+
+/* line 117, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.arrow_up {
+  width: 10px;
+  background-color: gray;
+  transform: rotate(45deg) translate(0px, -4px);
+}
+
+/* line 121, ../../../../OpenServer/OSPanel/domains/SkyNet/src/sass/style.sass */
+.arrow_down {
+  width: 10px;
+  background-color: gray;
+  transform: rotate(-45deg) translate(0px, 3px);
+}
+
+/*# sourceMappingURL=style.css.map */
